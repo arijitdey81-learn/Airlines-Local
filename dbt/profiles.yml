@@ -10,4 +10,4 @@ airline_analytics:
       database: "{{ env_var('SNOWFLAKE_DATABASE') }}"
       schema: "{{ env_var('SNOWFLAKE_SCHEMA', 'RAW') }}"
       role: "{{ env_var('SNOWFLAKE_ROLE', 'SYSADMIN') }}"
-      threads: 4
+      threads: 2
